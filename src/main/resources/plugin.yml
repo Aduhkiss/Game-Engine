@@ -1,0 +1,24 @@
+name: GameEngine
+version: '${version}'
+author: "Atticus Zambrana"
+
+main: family.zambrana.engine.GameEngine
+api-version: '1.21'
+
+commands:
+  changeowner:
+    description: "Change the owner of a pet"
+    usage: "/changeowner <player>"
+    permission: gameengine.cmd.changeowner
+  petinfo:
+    description: "Get information about a pet"
+    usage: "/petinfo"
+    permission: gameengine.cmd.petinfo
+
+permissions:
+  gameengine.cmd.changeowner:
+    description: "Allows a player to change the owner of a pet"
+    default: op
+  gameengine.cmd.petinfo:
+    description: "Allows a player to get information about a pet"
+    default: op
