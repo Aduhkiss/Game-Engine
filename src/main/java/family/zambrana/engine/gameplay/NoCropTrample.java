@@ -7,6 +7,8 @@ import org.bukkit.event.entity.EntityChangeBlockEvent;
 
 /**
  * NoCropTrample
+ * It basically stops Entitys and players from destroying farmland when their dumb asses jump on it.
+ * pretty simple.
  * <p>
  * Author: Atticus Zambrana
  * Created: 4/13/2026
